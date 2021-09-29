@@ -1,0 +1,19 @@
+@import "scss/variables";
+@import "null-styles";
+@import "scss/fonts/fonts";
+@import "scss/mixins/mixins";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: $fs-primary;
+  font-weight: $fw-light;
+  height: 100vw;
+  overflow: hidden;
+  background-color: $white-blur;
+  //line-height: 1.2;
+
+}
+
+h1 {
+  font-size: $fs-primary-title;
+}
